@@ -104,6 +104,8 @@ while True:
 if option == 23:
     print("Thank you for using the program.")
     exit(0)
+
+# print(data.head())
 select_option(option, data)
 
 print("\n\n")
