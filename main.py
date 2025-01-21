@@ -106,7 +106,8 @@ if option == 23:
     exit(0)
 
 # print(data.head())
-select_option(option, data)
+# O PROBLEMA ESTAVA AQUI, 'data'e 'option' estavam na ordem errada
+select_option(data, option)
 
 print("\n\n")
 
